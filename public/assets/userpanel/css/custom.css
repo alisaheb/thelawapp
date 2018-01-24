@@ -1,0 +1,135 @@
+
+.list, .tasks-menu
+{
+border-right:1px solid grey;
+}
+
+.task-right.single-project-right
+{
+    max-height:37.3em;
+    overflow-y: visible;
+}
+
+
+ .posted-pic {
+    float: left;
+    height: 60px;
+    width: 60px;
+}
+
+.posted-pic img {
+    border-radius: 50%;
+    float: left;
+    height: 90%;
+    margin: 4px 0 0 2px;
+    width: 90% !important;
+}
+
+   .comment-pic {
+    float: left;
+    height: 40px;
+    width: 40px;
+}
+
+.comment-pic img {
+    border-radius: 50%;
+    float: left;
+    height: 90%;
+    margin: 4px 0 0 2px;
+    width: 90% !important;
+}
+.rewiew{
+	clear:both;
+	width:100%;
+	
+}
+
+.review_single{
+	margin-bottom:10px;
+	position:relative;
+	
+}
+.rew_img, .rew_per, .rew_rating{
+	display:inline-block;
+	margin-right: 30px;
+	vertical-align: middle;
+	
+}
+
+.rew_img img{
+	border-radius:50%;
+	width:50px;
+	height:50px;
+	object-fit: cover;
+	
+}
+
+
+.rew_rating p{
+	color: #cad7dc;
+    margin: 0px;
+    font-size: 12px;
+    font-weight: normal;
+	
+}
+.rew_rating p.star{
+	color: #f4be37;
+    font-size: 14px;
+    font-weight: bold;
+	
+}
+.rew_per{
+    width: 90px;
+    margin-right: 50px;
+}
+
+a :hover, a :active, a :visited, a :focus {
+    text-decoration:none !important;
+}
+
+.inner-new{
+	float:left;
+	width:87%;
+}
+
+.task-activity .inner-new .new-comment {
+    background: #2281b1 none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #9d9d9d;
+    float: left;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    width: 83%;
+    margin-bottom: 20px;
+}
+.inner-new .comment-pic {
+    float: left;
+    height: auto;
+    width: 80px;
+}.task-activity .inner-new .new-comment h3 {
+    border-bottom: 1px solid #cdcdcd;
+    color: #fff;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0 0 5px;
+    padding: 0 0 3px;
+}.task-activity .inner-new .new-comment p {
+    color: #fff;
+    font-weight: normal;
+}
+
+.offer-first
+{
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+

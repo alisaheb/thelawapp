@@ -1,0 +1,57 @@
+.donate-now {
+     float: left;
+    list-style-type: none;
+    margin: 10px 0 0;
+    padding: 0;
+    width: 100%;
+}
+
+.donate-now li {
+    float: left;
+    height: 40px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    width: 50%;
+}
+
+.donate-now label, .donate-now input {
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.donate-now input[type="radio"] {
+    opacity:0.011;
+	width: auto;
+    z-index:100;
+}
+.donate-now input[type="radio"]:checked + label::after {
+    opacity: 0;
+}
+.donate-now input[type="radio"]:checked + label {
+    background:#DDD;
+}
+
+.donate-now label {
+    padding:7px 0;
+    border:1px solid #CCC;
+    cursor:pointer;
+    z-index:90;
+}
+.common-inner-form .donate-now span {
+    margin: 20px 0 0;
+}
+.common-inner-form .donate-now label {
+    color: #808080;
+	margin: 0 !important;
+}
+.donate-now label:hover {
+     background:#DDD;
+}
+.donate-now input[type="radio"] + label::before {
+    display: none;
+}

@@ -1,0 +1,3 @@
+[21-Dec-2016 12:18:06 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/lawwcoma/public_html/app/Http/Controllers/Auth/LoginController.php on line 31
+[21-Dec-2016 12:19:07 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/lawwcoma/public_html/app/Http/Controllers/Auth/LoginController.php on line 31
+[21-Dec-2016 12:19:15 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/lawwcoma/public_html/app/Http/Controllers/Auth/LoginController.php on line 31

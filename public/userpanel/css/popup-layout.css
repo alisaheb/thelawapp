@@ -1,0 +1,47 @@
+ .md-modal
+   {
+     position:fixed !important;
+     top:0 !important;
+     left:0 !important;
+     width:100% !important;
+     max-width:100% !important;
+     min-width:100% !important;
+     height:100% !important;
+     transform:none !important;
+   -webkit-transform:none !important;
+   background:rgba(0,0,0,0.88) !important;
+   }
+   
+   .md-content
+   {
+     margin:0px !important;
+      background:#fff;
+      /* width: 30% !important; */
+	  width: 550px;
+       height:auto !important;
+       top:50% !important;
+       left:50% !important;
+       position:relative !important;
+       min-width:350px !important;
+       transform:translateX(-50%) translateY(-50%) !important;
+      -webkit-transform:translateX(-50%) translateY(-50%) !important;
+   }
+   
+ .md-content > div {
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+    font-size: 1.15em;
+}
+
+.md-content {
+    background:transparent;
+}
+
+.md-content > div ul {
+    margin: 0;
+    padding: 0px 15px 30px;
+}	
+.md-content > div ul li{text-align:center;}
+.md-content > div ul li i{margin-right:7px;}
+.md-content > div a{display:block; margin:auto auto 50px; width:96%; background:red; color:#fff; text-align:center; text-transform:uppercase; height:35px; line-height:35px; border-radius:3px;font-size:13px;}

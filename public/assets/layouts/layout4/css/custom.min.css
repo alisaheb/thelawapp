@@ -1,0 +1,21 @@
+body .page-header.navbar .page-logo .logo-default {
+    /* margin: 0 10px; */
+	margin: 9px 10px 0;
+    width: 180px;
+}
+
+.page-header-inner{
+	margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+    width: 100%;
+}
+.page-container{
+	max-width:1200px;
+	margin:auto;
+	width:100%;
+}.btn.green:not(.btn-outline) {
+    color: #FFF;
+    background-color: #51a0ca;
+    border-color: #51a0ca;
+}
